@@ -1,0 +1,23 @@
+@import url('https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'gothamPro';
+  }
+}
+
+@layer components {
+  .icon-lg {
+    font-size: 32px;
+  }
+  .icon-md {
+    font-size: 24px;
+  }
+  .icon-sm {
+    font-size: 16px;
+  }
+}
